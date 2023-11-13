@@ -11,3 +11,10 @@ btn.addEventListener('click', () => {
     span3.classList.toggle('trans45');
     mobile.classList.toggle('left-0');
 })
+let faqLi = document.querySelector('.faq_li');
+let fld = document.querySelector('.faq_li_description');
+let flimage = document.querySelector('.faqli_img');
+faqLi.addEventListener('click', () =>{
+    fld.classList.toggle('max-auto')
+    flimage.classList.toggle('rotate-180')
+})

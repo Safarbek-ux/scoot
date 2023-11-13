@@ -1,12 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.imas{
+
+.faq_li_description {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.max-auto {
+    max-height: max-content;
+    overflow: auto;
+}
+
+.valuehover:hover span {
+    transform: translateY(-156%) scale(250%);
+}
+
+.imas {
     transform: rotate(90deg) translateX(30%);
     left: -42.5%;
 }
+
 .list-1 {
     background: url(../images/right-section.png)no-repeat top right, url(../images/left-section.png)no-repeat left, url(../images/right-section.png)no-repeat bottom right;
+}
+
+.list-1_about {
+    background: url(../images/right-section.png)no-repeat top right, url(../images/left-section.png)no-repeat bottom left;
 }
 
 .modal {
