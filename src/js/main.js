@@ -11,10 +11,13 @@ btn.addEventListener('click', () => {
     span3.classList.toggle('trans45');
     mobile.classList.toggle('left-0');
 })
-let faqLi = document.querySelector('.faq_li');
-let fld = document.querySelector('.faq_li_description');
-let flimage = document.querySelector('.faqli_img');
-faqLi.addEventListener('click', () =>{
-    fld.classList.toggle('max-auto')
-    flimage.classList.toggle('rotate-180')
+let faqLi = document.getElementsByClassName('faq_li');
+let fld = document.getElementsByClassName('faq_li_description');
+let flimage = document.getElementsByClassName('faqli_img');
+for (let i = 0; i < fld.length; i++) {
+    faqLi[i].addEventListener('click', () =>{
+    fld[i].classList.toggle('max-auto')
+    flimage[i].classList.toggle('rotate-180')
 })
+    
+}

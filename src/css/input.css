@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.faq_li {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+}
+
 .faq_li_description {
     max-height: 0;
     overflow: hidden;
