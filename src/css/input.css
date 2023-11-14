@@ -37,6 +37,10 @@
     background: url(../images/right-section.png)no-repeat top right, url(../images/left-section.png)no-repeat bottom left;
 }
 
+.list-1_career {
+    background: url(../images/right-section.png)no-repeat right;
+}
+
 .modal {
     transform: translateX(-100%);
 }
